@@ -6,9 +6,9 @@ import java.sql.SQLException;
 import sergei.accountservice.intf.AccountService;
 
 public class Writer implements Runnable {
-	public AccountService  serv  = null;
-	public Integer		   id 	 = null;
-	public Long		       value = null;
+	public AccountService serv = null;
+	public Integer id = null;
+	public Long value = null;
 	/*
 	 * Caller AccountService.addAmount(id,value)
 	 * @param service AccountService object

@@ -6,8 +6,8 @@ import java.sql.SQLException;
 import sergei.accountservice.intf.AccountService;
 
 public class Reader implements Runnable {
-	public AccountService  serv = null;
-	public Integer		   id 	= null;
+	public AccountService serv = null;
+	public Integer id = null;
 	/*
 	 * Caller AccountService.getAmount(id)
 	 * @param service AccountService object
