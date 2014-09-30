@@ -15,10 +15,10 @@ import org.xml.sax.SAXException;
 import sergei.accountservice.intf.AccountService;
 
 public class Client {
-	public      String             ServerURL = null;
-	public      Integer            rCount    = null;
-	public 		Integer            wCount    = null;
-	public 		ArrayList<Integer> idList    = null;
+	public String             ServerURL = null;
+	public Integer            rCount    = null;
+	public Integer            wCount    = null;
+	public ArrayList<Integer> idList    = null;
 	
 	public static void main(String[] args)
 	{
